@@ -6,6 +6,11 @@
 //@ts-check
 'use strict';
 
+const aws_secret_access_keys = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
+const test_t_api_key = "SKa9b74728319b15614f09ded410ff5d30";
+const test_t_secret = "1gj0hk0Tjb7IoN5ZLwmyGfd70muqpqh8";
+const test_p_api_key = "PMAK-6138e18eab2416004da8fca2-51f1103608ad8e21cd40c37bdad3af87f3"
+
 const performance = require('./vs/base/common/performance');
 performance.mark('code/fork/start');
 
